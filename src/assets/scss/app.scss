@@ -2,3 +2,14 @@
 @import 'foundation-emails';
 
 @import 'template/template';
+
+@media only screen and (max-width: #{$global-breakpoint}) {
+  table.body .columns {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+}
+
+.secondary-text {
+  color: #888888 !important;
+}
